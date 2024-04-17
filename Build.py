@@ -12,6 +12,7 @@ if __name__ == '__main__':
     PyInstaller.__main__.run([
         'DumbApp.py',
         '--onefile',
+        '--noconsole',
         '--distpath',
         '.\\'
     ])
