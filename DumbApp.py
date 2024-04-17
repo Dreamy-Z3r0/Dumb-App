@@ -35,7 +35,7 @@ class MainWindow(QMainWindow):
 
         self.index += 1
         if self.index == len(frames):
-            self.index = 0
+            self.index = 2
 
 
 if __name__ == '__main__':
